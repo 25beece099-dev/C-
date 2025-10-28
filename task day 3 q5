@@ -1,0 +1,11 @@
+Q5.Write a C Program to print the square and cube of a given number.                                #include <stdio.h>
+int main() {
+    int n;
+    printf("Enter a number: ");
+    scanf("%d", &n);
+
+    printf("Square: %d\n", n * n);
+    printf("Cube: %d", n * n * n);
+
+    return 0;
+}
