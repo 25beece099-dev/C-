@@ -1,0 +1,14 @@
+Q4.Write C Program to print the last digit and all digits Except last digit of given number N. Show only program.                                       #include <stdio.h>
+int main() {
+    int N, lastDigit, remainingDigits;
+    printf("Enter a number: ");
+    scanf("%d", &N);
+
+    lastDigit = N % 10;
+    remainingDigits = N / 10;
+
+    printf("Last digit: %d\n", lastDigit);
+    printf("All digits except last digit: %d", remainingDigits);
+
+    return 0;
+}
