@@ -1,0 +1,30 @@
+Q2.Write a C Program to find area of Rectangle, Square, triangle and circle.                       #include <stdio.h>
+#define PI 3.14
+
+int main() {
+    float length, breadth, side, base, height, radius;
+    float area_rectangle, area_square, area_triangle, area_circle;
+
+    printf("Enter length and breadth of rectangle: ");
+    scanf("%f %f", &length, &breadth);
+    area_rectangle = length * breadth;
+
+    printf("Enter side of square: ");
+    scanf("%f", &side);
+    area_square = side * side;
+
+    printf("Enter base and height of triangle: ");
+    scanf("%f %f", &base, &height);
+    area_triangle = 0.5 * base * height;
+
+    printf("Enter radius of circle: ");
+    scanf("%f", &radius);
+    area_circle = PI * radius * radius;
+
+    printf("Area of Rectangle = %.2f\n", area_rectangle);
+    printf("Area of Square = %.2f\n", area_square);
+    printf("Area of Triangle = %.2f\n", area_triangle);
+    printf("Area of Circle = %.2f\n", area_circle);
+
+    return 0;
+}
