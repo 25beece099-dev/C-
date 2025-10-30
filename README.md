@@ -1,2 +1,1 @@
-# C-
-Basic programming 
+daily challenge 
