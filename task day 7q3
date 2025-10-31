@@ -1,0 +1,18 @@
+Q3.C Program to check grade of a student based on marks (A, B, C, Fail). show only program.            #include <stdio.h>
+
+int main() {
+    int marks;
+    printf("Enter marks: ");
+    scanf("%d", &marks);
+
+    if (marks >= 75)
+        printf("Grade: A");
+    else if (marks >= 60)
+        printf("Grade: B");
+    else if (marks >= 50)
+        printf("Grade: C");
+    else
+        printf("Grade: Fail");
+
+    return 0;
+}
